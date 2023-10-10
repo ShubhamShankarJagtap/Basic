@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="API Test Suite">
+    <test verbose="10" preserve-order="true" name="API FUNCTIONAL TESTING">
+        <classes>
+<!--            <class name="com.ReqRes_Api.Basic">-->
+<!--            <methods><include name="testCase1"/>-->
+<!--        </methods>-->
+<!--        </class>-->
+            <class name="com.ReqRes_Api.Test_Get_Method">
+                <methods><include name="verifyGetRequestStatus"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
