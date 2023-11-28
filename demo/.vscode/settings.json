@@ -1,0 +1,19 @@
+{
+    "java.compile.nullAnalysis.mode": "automatic",
+    "sqltools.connections": [
+        {
+            "mssqlOptions": {
+                "appName": "SQLTools",
+                "useUTC": true,
+                "encrypt": true
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 1433,
+            "driver": "MSSQL",
+            "name": "DESKTOP-0MS0N57\\SQLEXPRESS",
+            "username": "shubham",
+            "database": "sql"
+        }
+    ]
+}
