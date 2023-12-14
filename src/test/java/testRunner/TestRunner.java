@@ -7,12 +7,11 @@ import org.junit.runner.RunWith;
 
 @CucumberOptions(
 
-        features = "Feature/sauceDemologin.feature",
-        glue = "stepDefinition",
-        dryRun = false,
+        features = "Feature/Department.feature",
+        glue = "com/Actitime/stepDefinition",
         monochrome = true,  // for making the output readable.
-        plugin = {"pretty"}
-//        tags = " @GetById"
+        plugin = {"pretty"},
+       tags = "@Department"
 
 )
 public class TestRunner {

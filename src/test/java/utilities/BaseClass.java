@@ -8,10 +8,10 @@ import static io.restassured.RestAssured.given;
 
 public class BaseClass {
 
-    static public RequestSpecification requestSpecification= given();
+    static public RequestSpecification requestSpecification = given();
     static public Response response;
-static public int custemerId;
-static public int projectId;
-static public int userId;
+    static public int custemerId;
+    static public int projectId;
+    static public int userId;
 
 }
